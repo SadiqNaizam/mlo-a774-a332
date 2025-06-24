@@ -11,7 +11,7 @@ interface InputFieldsProps {
 
 const InputFields: React.FC<InputFieldsProps> = ({ email, setEmail, password, setPassword }) => {
   const inputStyle =
-    'border-0 border-b border-gray-300 rounded-none px-0 shadow-none focus-visible:ring-0 focus-visible:border-primary pb-2 bg-transparent text-base';
+    'border-0 border-b border-border rounded-none px-0 shadow-none focus-visible:ring-0 focus-visible:border-primary pb-2 bg-transparent text-base';
 
   return (
     <div className="space-y-8">
